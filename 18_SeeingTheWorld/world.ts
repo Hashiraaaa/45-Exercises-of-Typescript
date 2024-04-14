@@ -17,10 +17,10 @@ console.log("Reversing the alphabatical order : " + [...places].sort().reverse()
 console.log("After reversing, the original list is : " + places);
 
 //Reverse the order of your list. Print the array to show that its order has changed.
-console.log("Reversing the order again : " + [...places].sort().reverse());
+console.log("Reversing the order again : " + [...places].reverse());
 
 //Reverse the order of your list again. Print the list to show it’s back to its original order.
-console.log("The original list : " + places);
+console.log("The original list : " + [...places].reverse());
 
 
 //Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
